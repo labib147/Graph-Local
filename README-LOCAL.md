@@ -12,6 +12,7 @@ Find graph client folder and go through the installation process: https://github
 ### Install the followings beforehand
 1. Node
 2. NPM
+3. Docker
 
 ### Installation of node - 
 1. `sudo apt install nodejs`
@@ -28,6 +29,13 @@ After running the final command, you should get the following output `v16.14.2`
 2.  `npm -v` 
 3.  This should show an output as follows `8.5.0`
 4.  If this does not update to your required version, then try `sudo npm install -g npm@8.5.0`
+
+### Installation of Docker & Docker 
+
+1. `sudo apt-get update`
+2. `sudo apt-get install docker-ce docker-ce-cli containerd.io`
+3. `docker -v`
+4. The output of the last line should show following output `Docker version 20.10.7`
 
 After this you can watch this 30 min video that explains the entire process step by step: https://www.youtube.com/watch?v=jxhNsSicEzA
 
