@@ -47,6 +47,7 @@ After running the final command, you should get the following output `v16.14.2`
 Go to Infura website, create an account and then create a new project. Go to "Project Settings" and copy the https link in the “Endpoints” section confirming the “Mainnet” option in the scroll down menu(Mainnet is selected by default) 
 
 ![image](https://user-images.githubusercontent.com/52388164/161416604-b7e9e455-604f-4470-9f91-6d68ce56d2ee.png)
+
 Then go to your docker installation folder and find the “docker-compose.yml” file. 
 ![image](https://user-images.githubusercontent.com/52388164/161416618-56ef7b25-56dd-47da-bd1e-b2840ccae2b5.png)
 Paste the copied link in the “ ethereum: ‘paste link here’ ” line.
