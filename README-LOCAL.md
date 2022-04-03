@@ -64,8 +64,9 @@ Type the following commands in the terminal step by step
 2. `yarn run build`
 3. `yarn create-local`
 4. `yarn deploy-local`
-5. Then copy the end
-file:///home/office/Pictures/Screenshot%20from%202022-04-03%2012-47-36.png![image](https://user-images.githubusercontent.com/52388164/161415615-b9cfb8d8-75ee-45cb-9ae0-756d6d7f118a.png)
+5. Then copy the end point of the "Queries(HTTP)" and paste it in the endpoint of the "graphclientrc.yml" file
+(https://user-images.githubusercontent.com/52388164/161415615-b9cfb8d8-75ee-45cb-9ae0-756d6d7f118a.png)
+6. 
 
 
  
