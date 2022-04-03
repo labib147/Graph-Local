@@ -30,12 +30,17 @@ After running the final command, you should get the following output `v16.14.2`
 3.  This should show an output as follows `8.5.0`
 4.  If this does not update to your required version, then try `sudo npm install -g npm@8.5.0`
 
-### Installation of Docker & Docker 
+### Installation of Docker & Docker Compose 
 
 1. `sudo apt-get update`
 2. `sudo apt-get install docker-ce docker-ce-cli containerd.io`
 3. `docker -v`
-4. The output of the last line should show following output `Docker version 20.10.7`
+4. After running the previous command you should get the following output `Docker version 20.10.7`
+5. `mkdir -p ~/.docker/cli-plugins/`
+6. `curl -SL https://github.com/docker/compose/releases/download/v2.2.3/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose`
+7. `chmod +x ~/.docker/cli-plugins/docker-compose`
+8. `docker compose version`
+9. After running the previous command, you should get the following output `Docker Compose version v2.2.3`
 
 After this you can watch this 30 min video that explains the entire process step by step: https://www.youtube.com/watch?v=jxhNsSicEzA
 
