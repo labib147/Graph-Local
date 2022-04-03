@@ -13,6 +13,7 @@ Find graph client folder and go through the installation process: https://github
 1. Node
 2. NPM
 3. Docker
+4. Opening an account in Infura
 
 ### Installation of node - 
 1. `sudo apt install nodejs`
@@ -41,6 +42,10 @@ After running the final command, you should get the following output `v16.14.2`
 7. `chmod +x ~/.docker/cli-plugins/docker-compose`
 8. `docker compose version`
 9. After running the previous command, you should get the following output `Docker Compose version v2.2.3`
+
+### Opening account in Infura 
+Go to Infura website, create an account and then create a new project.
+
 
 After this you can watch this 30 min video that explains the entire process step by step: https://www.youtube.com/watch?v=jxhNsSicEzA
 
