@@ -33,9 +33,24 @@ After this you can watch this 30 min video that explains the entire process step
 
 The project might throw an error in the end because of the version of the dependencies. So, be sure to update the graph-cli & graph-ts to their latest versions.
 ```
+    npm i @graphprotocol/client-cli@latest or npm i -D @graphprotocol/client-cli@latest
     npm i @graphprotocol/graph-cli@latest or npm i -D @graphprotocol/graph-cli@latest 
     npm i @graphprotocol/graph-ts@latest or  npm i -D @graphprotocol/graph-ts@latest
     npm i @graphprotocol/graph-ts@latest
 ```
+Afther updating the package.json file should show the following devDependencies:
+```
+    "@graphprotocol/client-cli": "^0.0.2",
+    "@graphprotocol/graph-cli": "^0.29.0",
+    "@graphprotocol/graph-ts": "^0.26.0",    
+    "typescript": "^4.6.2"
+```
+
+Install graph-cli in your package.json file 
+`graph codegen ./token.yaml`  (Generates a schema.ts file)
+
+Use `npm run codegen` or `yarn run codegen` to run codegen
+
+- `yarn run deploy *paste your access token here*`
 
 
