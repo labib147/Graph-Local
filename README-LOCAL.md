@@ -52,6 +52,7 @@ Then go to your docker installation folder and find the “docker-compose.yml”
 ![image](https://user-images.githubusercontent.com/52388164/161416618-56ef7b25-56dd-47da-bd1e-b2840ccae2b5.png)
 Paste the copied link in the “ ethereum: ‘paste link here’ ” line.
 
+Then you should start the docker by going to the docker-compose folder, opening terminal and typing `sudo docker-compose up`
 
 After this you can watch this 30 min video that explains the entire process step by step: https://www.youtube.com/watch?v=jxhNsSicEzA
 
