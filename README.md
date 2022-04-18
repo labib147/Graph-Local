@@ -90,6 +90,7 @@ sources:
       graphql:
         endpoint: 
 ```
+Note: This is not always necessary for locally deploying other protocols.
 
 7. `yarn graphclient build`
 8. `yarn graphclient serve-dev`
