@@ -112,7 +112,7 @@ Example Query
 
 More useful commands for other subgrahps 
 1. `npm install assemblyscript` or `npm install -D assemblyscript`
-2. 
+
 
 
  
